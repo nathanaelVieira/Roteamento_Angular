@@ -1,0 +1,34 @@
+<h2 style="font-size: 20px">Formulário</h2>
+
+<form (ngSubmit)= "Enviar()" >
+
+    <div class="form-group">
+        <label for="codigo">Código:&nbsp;</label>
+        <input type="text"  name="codigo" id="codigo" class="form-control"
+        [(ngModel)] = "aluno.codigo">
+       
+    </div><br>
+
+    <div class="form-group">
+        <label for="nome">Nome:&nbsp; &nbsp;</label>
+        <input type="text" name="nome" id="nome" class="form-control"
+        [(ngModel)] = "aluno.nome">
+    </div><br>
+
+    <div class="form-group">
+        <label for="idade">Idade:&nbsp; &nbsp; </label>
+        <input type="text" name="idade" id="idade" class="form-control"
+        [(ngModel)] = "aluno.idade">
+    </div><br>
+
+    <div class="form-group">
+        <label for="email">E-mail:&nbsp;&nbsp;</label>
+        <input type="text" name="email" id="email" class="form-control"
+        [(ngModel)] = "aluno.email">
+    </div><br>
+
+    <div style="margin-top: 20px;" class="form-group">
+        <button type="submit">Enviar</button>
+    </div><br>
+
+</form>

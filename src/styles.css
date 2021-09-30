@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+
+.ativo {
+    font-family: courier;
+    font-size: 20px;
+    color: rgb(183, 4, 207);
+    background-color: rgb(165, 18, 153, 0.253);
+}
+
+body {
+    background-color: rgb(212, 179, 201);
+}
